@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <script src="index.js" defer></script> -->
+    <link rel="stylesheet" href="index.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div>
+      <input type="text" id="searchPlace" />
+      <button type="submit" id="searchBtn">검색 하기</button>
+    </div>
+
+    <div id="map" style="width: 500px; height: 400px"></div>
+
+    <!-- js API 호출 -->
+    <script
+      type="text/javascript"
+      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=09ea5ba2e5ec374b678a36aac1f0b606&libraries=services
+      "
+    ></script>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
